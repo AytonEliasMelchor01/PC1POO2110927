@@ -15,10 +15,10 @@ public class E9
 
 	    System.out.println("Cálculo del tiempo que tarda en caer un objeto desde cierta altura ");
 	    System.out.println("Ingrese la altura en metros: ");
-	    double Altura = input.nextDouble(); //pedir ingresar altura en metros
+	    double Altura = input.nextDouble(); //pedir ingresar altura en metros ( 30 metros)
 	    
 	    double Tiempo = Math.sqrt((2*Altura)/gravedad); //calcular usando la fórmula t = sqrt(2h/g)
-		System.out.println("El tiempo que tarda en caer es: "+ Tiempo +" segundos");
+		System.out.println("El tiempo que tarda en caer es: "+ Tiempo +" segundos"); //resultado 2.47 segundos
 		
 	}
 }
