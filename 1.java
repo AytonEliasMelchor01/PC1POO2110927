@@ -15,13 +15,11 @@ public class E1
 	    int resta = x-y;
 	    int multi = x*y;
 	    float division = x/y;
-	    
-	    
-		System.out.println("valor de x = "+ x);
-		System.out.println("valor de y = "+ y);
-		System.out.println("suma = "+ suma);
-		System.out.println("resta = " + resta);
-		System.out.println("multiplicación = "+multi);
-		System.out.println("división = "+ division);
+		System.out.println("valor de x = "+ x); //devulve 144
+		System.out.println("valor de y = "+ y); //devuelve 999
+		System.out.println("suma = "+ suma); //devuelve 1143
+		System.out.println("resta = " + resta); //devuelve -855
+		System.out.println("multiplicación = "+multi); //devuelve 143856
+		System.out.println("división = "+ division); //devuelve 0.0
 	}
 }
