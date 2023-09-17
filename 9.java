@@ -14,13 +14,13 @@ public class E9 {
     int horasTrabajadas;
 
     System.out.print("Por favor, introduzca el número de horas trabajadas durante la semana: ");
-    horasTrabajadas = input.nextInt();
+    horasTrabajadas = input.nextInt(); //como ejemplo introduzco 45 horas
     
     if (horasTrabajadas <= 40) {
-      sueldoSemanal = 12 * horasTrabajadas;
+      sueldoSemanal = 12 * horasTrabajadas; //si trabaja hasta 40 hors recibe 12 soles por hora
     } else {
-      sueldoSemanal = (40 * 12) + ((horasTrabajadas - 40) * 16);
+      sueldoSemanal = (40 * 12) + ((horasTrabajadas - 40) * 16); // pero si trabaja mas de 40 horas resibe 16 soles por hora extra
     }
-    System.out.println("El sueldo semanal que le corresponde es de " + sueldoSemanal + " euros");
+    System.out.println("El sueldo semanal que le corresponde es de " + sueldoSemanal + " soles"); //el resultado el 560 soles
   }
 }
