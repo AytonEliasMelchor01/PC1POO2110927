@@ -17,15 +17,16 @@ public class E11 {
     System.out.println("primero introducirá la hora y luego los minutos.");
     
     System.out.print("hora: ");
-    int hora = input.nextInt();
+    int hora = input.nextInt(); //insertamos la hora indicada (23 horas)
     
     System.out.print("minuto: ");
-    int minuto = input.nextInt();
+    int minuto = input.nextInt(); //insertamos los minutos indicados (55 minutos)
 
     int segundosTranscurridos = (hora * 3600) + (minuto * 60);
     int segundosHastaMedianoche = (24 * 3600) - segundosTranscurridos;
             
-    //System.out.println("Desde las " + hora + ":" + minuto + " hasta la medianoche faltan " + segundosHastaMedianoche + " segundos.");
-    System.out.printf("Desde las %02d:%02d hasta la medianoche faltan %d segundos.", hora, minuto, segundosHastaMedianoche);
+    
+    System.out.printf("Desde las "+ hora +":"+ minuto +" hasta la medianoche faltan " + segundosHastaMedianoche + "segundos.");
+    // como resultado nos da 3000 segundos que vendria a ser 5 minutos 
   }
 }
