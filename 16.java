@@ -10,7 +10,6 @@ import java.util.Scanner;
 
 public class E16 {
     public static void main(String[] args) {
-        // Crear un objeto Scanner para la entrada del usuario
         Scanner scanner = new Scanner(System.in);
 
         // Declarar variables para contar números positivos y negativos
@@ -34,8 +33,7 @@ public class E16 {
         System.out.println("Cantidad de números positivos: " + positivos);
         System.out.println("Cantidad de números negativos: " + negativos);
 
-        // Cerrar el objeto Scanner
-        scanner.close();
+    
     }
 }
 
